@@ -1,0 +1,20 @@
+:toc: macro
+toc::[]
+
+= Install My-Thai-Star with the new devon-ide
+
+This tutorial shows you, how to install the project My-Thai-Star using the new devo-ide scripts.
+
+== Installing the devon-ide
+
+Please execute the setup of the devon-ide as described link:https://github.com/devonfw/devon-ide/blob/master/documentation/setup.asciidoc[here] .
+
+== Creating a new workspace
+
+- Download the My-Tahi-Star project from here link:https://github.com/devonfw/my-thai-star[My-Thai-Star]. It is a GitHub repository. If you dont know it, just click on the green Bulk and choose 'Download zip-file'. Download it to you devon workspace
+
+- Open a terminal.
+
+- Goto the workspaces directory using `cd workspaces`.
+
+- 

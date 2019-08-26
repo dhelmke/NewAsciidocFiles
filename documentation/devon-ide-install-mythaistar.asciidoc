@@ -17,6 +17,4 @@ Please execute the setup of the devon-ide as described link:https://github.com/d
 
 - Goto the workspaces directory using `cd workspaces`.
 
-- das ist ein test
-
-- das  ist noch ein test
+- Manchmal denke ich, es ist doch gar nicht so schwer.

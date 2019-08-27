@@ -58,6 +58,9 @@ Please execute the setup of the devon-ide as described link:https://github.com/d
 - The frontend is on http://localhost:4200 .
 
 
+Pictures are missing.
+
+
 
 
 

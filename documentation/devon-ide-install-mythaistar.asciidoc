@@ -9,7 +9,7 @@ This tutorial shows you, how to install the project My-Thai-Star using the new d
 
 Please execute the setup of the devon-ide as described link:https://github.com/devonfw/devon-ide/blob/master/documentation/setup.asciidoc[here] .
 
-== Running the App Backend
+== Importin the project
 
 - create your own GitHub repository, if you haven't.
 
@@ -43,7 +43,7 @@ Please execute the setup of the devon-ide as described link:https://github.com/d
 
 - Wait till the project is imported.
 
-- Run the app backend.
+- Run the app backend. It is on http://localhost:8081 .
 
 == Running the Frontend
 

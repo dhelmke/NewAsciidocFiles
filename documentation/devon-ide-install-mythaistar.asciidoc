@@ -9,13 +9,58 @@ This tutorial shows you, how to install the project My-Thai-Star using the new d
 
 Please execute the setup of the devon-ide as described link:https://github.com/devonfw/devon-ide/blob/master/documentation/setup.asciidoc[here] .
 
-== Creating a new workspace
+== Running the App Backend
 
-- Download the My-Tahi-Star project from here link:https://github.com/devonfw/my-thai-star[My-Thai-Star]. It is a GitHub repository. If you dont know it, just click on the green Bulk and choose 'Download zip-file'. Download it to you devon workspace
+- create your own GitHub repository, if you haven't.
 
-- Open a terminal.
+- Fork the link:https://github.com/devonfw/my-thai-star[My-Thai-Star] repository to your repository.
 
-- Goto the workspaces directory using `cd workspaces`.
+- Open a Git Bash.
 
-- Manchmal denke ich, es ist doch gar nicht so schwer.
-- Was soll denn das?
+- Goto the folder the devon-ide-setup created. It will be like: /devon-dist/workspaces.
+
+- Clone from your reository the My-Tahi-Star project. Use the command `git clone <your Git address>`. Your Git address for you repository can be found by clicking on the green bar marked: 'clone or download'.
+
+- Once this is finished, close the GitBash.
+
+- Open a Terminal in the /devon-dist/workspaces/my-thai-star folder.
+
+- Execute: `devon eclipse ws-up` . This will automatically update the workspace.
+
+- Execute: `devon eclipse create-script` . This will create a new script in the /devon-dist folder . You can use it later.
+
+- For now execute: `devon eclipse` .
+
+- Wait till Eclipse is loaded.
+
+- In Eclipse choose 'import project'.
+
+- Choose: 'Existing Maven project'.
+
+- Browse to /my-thai-star/java .
+
+- Import the folder 'mtsj' .
+
+- Wait till the project is imported.
+
+- Run the app backend.
+
+== Running the Frontend
+
+- open a terminal in /devon-dist./workspaces/my-thai-star/ folder.
+
+- Goto the folder 'angular' using `cd angular` .
+
+- Execute `yarn install` .
+
+- Execute `yarn run` .
+
+- The frontend is on http://localhost:4200 .
+
+
+
+
+
+
+
+

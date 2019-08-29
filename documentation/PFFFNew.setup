@@ -9,7 +9,7 @@
       name="User.development.environment.installation"
       label="User Development Environment Installation">
     <productVersion
-        href="index:/org.eclipse.setup#//@productCatalogs[name='org.eclipse.products']/@products[name='epp.package.committers']/@versions[name='latest']"/>
+        href="index:/org.eclipse.setup#//@productCatalogs[name='org.eclipse.products']/@products[name='epp.package.developer']/@versions[name='latest']"/>
     <description>The EMF development environment installation provides the full development environment for working with EMF and XSD.</description>
   </installation>
   <?xml version="1.0" encoding="UTF-8"?>

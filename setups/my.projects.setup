@@ -296,7 +296,7 @@
         name="Eclipse Platform"
         activeRepositoryList="${eclipse.target.platform}">
       <repositoryList
-          name="None"/>
+          name="(2019-06)"/>
       <repositoryList
           name="Mars">
         <repository

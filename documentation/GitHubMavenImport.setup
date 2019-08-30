@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<setup:Project
+    xmi:version="2.0"
+    xmlns:xmi="http://www.omg.org/XMI"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:git="http://www.eclipse.org/oomph/setup/git/1.0"
+    xmlns:maven="http://www.eclipse.org/oomph/setup/maven/1.0"
+    xmlns:setup="http://www.eclipse.org/oomph/setup/1.0"
+    xsi:schemaLocation="http://www.eclipse.org/oomph/setup/git/1.0 http://git.eclipse.org/c/oomph/org.eclipse.oomph.git/plain/setups/models/Git.ecore http://www.eclipse.org/oomph/setup/maven/1.0 http://git.eclipse.org/c/oomph/org.eclipse.oomph.git/plain/setups/models/Maven.ecore"
+    name="githubmavenimport"
+    label="GitHubMavenImport">
+  <setupTask
+      xsi:type="setup:VariableTask"
+      name="github.fork.name"
+      defaultValue="devonfw-forge"
+      storageURI="scope://Workspace"
+      label="Fork Name"/>
+  <setupTask
+      xsi:type="setup:VariableTask"
+      name="github.repo.name"
+      defaultValue="jump-the-queue-v2"
+      storageURI="scope://Workspace"
+      label="Repository Name"/>
+  <setupTask
+      xsi:type="setup:VariableTask"
+      name="github.remote.uri"
+      storageURI="scope://Workspace"
+      label="Remote URL (HTTPS/SSH)">
+    <choice
+        value="https://github.com/${github.fork.name}/${github.repo.name}.git"
+        label="HTTPS"/>
+    <choice
+        value="ssh://github.com/${github.fork.name}/${github.repo.name}.git"
+        label="SSH"/>
+  </setupTask>
+ 
+  <setupTask
+      xsi:type="maven:MavenImportTask">
+    <sourceLocator
+        rootFolder="c:/Users/dhelmke/eclipse/eclipse-workspace/githubclonemavenimport/ws/GitHubCloneMavenImport/java/"
+        locateNestedProjects="true"/>
+    <description>Imports Maven projects contained in the cloned Repo.</description>
+  </setupTask>
+  <stream name="master"
+      label="Master">
+    <description>Branch to check out.</description>
+  </stream>
+  <logicalProjectContainer
+      xsi:type="setup:ProjectCatalog"
+      href="index:/org.eclipse.setup#//@projectCatalogs[name='org.eclipse']"/>
+  <description>This imports any project from GitHub.</description>
+</setup:Project>

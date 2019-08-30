@@ -7,8 +7,8 @@
     xmlns:maven="http://www.eclipse.org/oomph/setup/maven/1.0"
     xmlns:setup="http://www.eclipse.org/oomph/setup/1.0"
     xsi:schemaLocation="http://www.eclipse.org/oomph/setup/git/1.0 http://git.eclipse.org/c/oomph/org.eclipse.oomph.git/plain/setups/models/Git.ecore http://www.eclipse.org/oomph/setup/maven/1.0 http://git.eclipse.org/c/oomph/org.eclipse.oomph.git/plain/setups/models/Maven.ecore"
-    name="githubclonemavenimport"
-    label="GitHubCloneMavenImport">
+    name="mavenimport"
+    label="MavenImport">
   <setupTask
       xsi:type="setup:VariableTask"
       name="github.fork.name"
@@ -47,5 +47,5 @@
   <logicalProjectContainer
       xsi:type="setup:ProjectCatalog"
       href="index:/org.eclipse.setup#//@projectCatalogs[name='org.eclipse']"/>
-  <description>This imports any project from GitHub.</description>
+  <description>This imports any project.</description>
 </setup:Project>

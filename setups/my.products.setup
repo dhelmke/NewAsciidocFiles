@@ -24,11 +24,11 @@
       option="-Doomph.setup"
       value="=true"
       vm="true"/>
-  <product name="epp.package.standard"
+  <product name="epp.package.java"
       label="Eclipse Standard/SDK">
     <version
         name="latest"
-        label="Latest (Neon)">
+        label="Latest (2019-06)">
       <setupTask
           xsi:type="setup.p2:P2Task">
         <requirement

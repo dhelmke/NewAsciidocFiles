@@ -28,7 +28,7 @@
       label="Eclipse Standard/SDK">
     <version
         name="latest"
-        label="Latest (Mars)">
+        label="Latest (Luna)">
       <setupTask
           xsi:type="setup.p2:P2Task">
         <requirement

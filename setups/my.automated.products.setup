@@ -12,7 +12,7 @@
         href="index:/org.eclipse.setup#//@productCatalogs[name='org.eclipse.products']/@products[name='epp.package.java']/@versions[name='latest']"/>
     <description>The Java (Mars) development environment installation provides the full development environment for working Java.</description>
   </installation>
-  <!--workspace
+  <workspace
       name="epp.development.environment.workspace"
       label="Mars Development Environment Workspace">
     <setupTask
@@ -29,13 +29,7 @@
         href="index:/org.eclipse.setup#//@projectCatalogs[name='org.eclipse']/@projects[name='emf']/@projects[name='xcore']/@streams[name='master']"/>
     <stream
         href="index:/org.eclipse.setup#//@projectCatalogs[name='org.eclipse']/@projects[name='xsd']/@streams[name='master']"/>
-    <project name="Container2"
-      label="My Projects">
-    <project href="https://raw.githubusercontent.com/dhelmke/NewAsciidocFiles/master/setups/GitHubCloneMavenImport.setup#/"/>
-    <project href="https://raw.githubusercontent.com/dhelmke/NewAsciidocFiles/master/setups/MavenImport.setup#/"/>   
-    <project href="setups/xtextTools.setup#/"/>
-  </project>
-	<description>The EMF/XSD development environment workspace includes the Core, RAP, GWT, Xcore, ODA, Releng, and XSD.</description>
-  </workspace-->
+    <description>The EMF/XSD development environment workspace includes the Core, RAP, GWT, Xcore, ODA, Releng, and XSD.</description>
+  </workspace>
   <description>THe EMF Development Environment configuration provides the full development environment for working on EMF.</description>
 </setup:Configuration>

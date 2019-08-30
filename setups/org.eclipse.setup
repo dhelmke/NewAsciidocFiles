@@ -38,7 +38,7 @@
   <!--productCatalog
       href="catalog:/self-product-catalog.setup#/"/-->
   <productCatalog
-      href="my.products.setup#/"/>
+      href="my.automated.products.setup#/"/>
   <projectCatalog
       href="my.projects.setup#/"/>
   <!--projectCatalog

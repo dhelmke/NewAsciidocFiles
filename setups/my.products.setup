@@ -28,7 +28,7 @@
       label="Eclipse Standard/SDK">
     <version
         name="latest"
-        label="Latest (2019-03)">
+        label="Latest (Mars)">
       <setupTask
           xsi:type="setup.p2:P2Task">
         <requirement

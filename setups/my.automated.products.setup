@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<setup:Configuration
+    xmi:version="2.0"
+    xmlns:xmi="http://www.omg.org/XMI"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:setup="http://www.eclipse.org/oomph/setup/1.0"
+    label="Java Mars">
+  <installation
+      name="epp.development.environment.installation"
+      label="Mars Development Environment Installation">
+    <productVersion
+        href="index:/org.eclipse.setup#//@productCatalogs[name='org.eclipse.products']/@products[name='epp.package.java']/@versions[name='latest']"/>
+    <description>The Java (Mars) development environment installation provides the full development environment for working Java.</description>
+  </installation>
+  <workspace
+      name="epp.development.environment.workspace"
+      label="Mars Development Environment Workspace">
+    <setupTask
+        xsi:type="setup:VariableTask"
+        name="eclipse.target.platform"
+        value="Mars"/>
+    <stream
+        href="index:/org.eclipse.setup#//@projectCatalogs[name='org.eclipse']/@projects[name='epp']/@projects[name='core']/@streams[name='master']"/>
+    <stream
+        href="index:/org.eclipse.setup#//@projectCatalogs[name='org.eclipse']/@projects[name='epp']/@projects[name='gwt']/@streams[name='master']"/>
+    <stream
+        href="index:/org.eclipse.setup#//@projectCatalogs[name='org.eclipse']/@projects[name='epp']/@projects[name='rap']/@streams[name='master']"/>
+    <stream
+        href="index:/org.eclipse.setup#//@projectCatalogs[name='org.eclipse']/@projects[name='emf']/@projects[name='xcore']/@streams[name='master']"/>
+    <stream
+        href="index:/org.eclipse.setup#//@projectCatalogs[name='org.eclipse']/@projects[name='xsd']/@streams[name='master']"/>
+    <description>The EMF/XSD development environment workspace includes the Core, RAP, GWT, Xcore, ODA, Releng, and XSD.</description>
+  </workspace>
+  <description>THe EMF Development Environment configuration provides the full development environment for working on EMF.</description>
+</setup:Configuration>

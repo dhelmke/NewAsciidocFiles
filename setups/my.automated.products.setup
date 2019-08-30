@@ -29,7 +29,13 @@
         href="index:/org.eclipse.setup#//@projectCatalogs[name='org.eclipse']/@projects[name='emf']/@projects[name='xcore']/@streams[name='master']"/>
     <stream
         href="index:/org.eclipse.setup#//@projectCatalogs[name='org.eclipse']/@projects[name='xsd']/@streams[name='master']"/>
-    <description>The EMF/XSD development environment workspace includes the Core, RAP, GWT, Xcore, ODA, Releng, and XSD.</description>
+    <project name="Container2"
+      label="My Projects">
+    <project href="https://raw.githubusercontent.com/dhelmke/NewAsciidocFiles/master/setups/GitHubCloneMavenImport.setup#/"/>
+    <project href="https://raw.githubusercontent.com/dhelmke/NewAsciidocFiles/master/setups/MavenImport.setup#/"/>   
+    <project href="setups/xtextTools.setup#/"/>
+  </project>
+	<description>The EMF/XSD development environment workspace includes the Core, RAP, GWT, Xcore, ODA, Releng, and XSD.</description>
   </workspace>
   <description>THe EMF Development Environment configuration provides the full development environment for working on EMF.</description>
 </setup:Configuration>

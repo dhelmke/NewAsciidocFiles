@@ -5,13 +5,13 @@
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:setup="http://www.eclipse.org/oomph/setup/1.0"
     label="Java Mars">
-  <installation
+  <!--installation
       name="epp.development.environment.installation"
       label="Mars Development Environment Installation">
     <productVersion
         href="index:/org.eclipse.setup#//@productCatalogs[name='org.eclipse.products']/@products[name='epp.package.java']/@versions[name='latest']"/>
     <description>The Java (Mars) development environment installation provides the full development environment for working Java.</description>
-  </installation>
+  </installation-->
   <workspace
       name="epp.development.environment.workspace"
       label="Mars Development Environment Workspace">

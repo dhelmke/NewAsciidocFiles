@@ -339,9 +339,9 @@
     <project href="https://raw.githubusercontent.com/nittka/terminology/master/terminologyDev.setup#/"/>
   </project>
   <project name="Container2"
-      label="Oomph Playground Projects">
+      label="My Projects">
     <project
-        href="setups/emptyProject.setup#/"/>
+        rootFolder="c:\Users\dhelmke\NewAsciidocDevonfw\NewAsciidocFiles\setup\MavenImport.setup#/"/>
     <project
         href="https://raw.githubusercontent.com/nittka/oomph-playground/master/setups/setups/xtextSDKRun.setup#/"/>
     <project

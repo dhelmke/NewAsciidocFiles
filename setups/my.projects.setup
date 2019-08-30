@@ -341,7 +341,8 @@
   <project name="Container2"
       label="My Projects">
     <project
-        rootFolder="c:\Users\dhelmke\NewAsciidocDevonfw\NewAsciidocFiles\setup\MavenImport.setup#/"/>
+	label ="MavenImport"
+        href="https://raw.githubusercontent.com/dhelmke/NewAsciidocFiles/master/setups/MavenImport.setup#/"/>
     <project
         href="https://raw.githubusercontent.com/nittka/oomph-playground/master/setups/setups/xtextSDKRun.setup#/"/>
     <project

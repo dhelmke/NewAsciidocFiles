@@ -340,8 +340,8 @@
   </project>
   <project name="Container2"
       label="My Projects">
-    <project href="https://raw.githubusercontent.com/dhelmke/NewAsciidocFiles/master/setups/MavenImport.setup#"/>
-    <project href="https://raw.githubusercontent.com/dhelmke/NewAsciidocFiles/master/setups/MavenImport.setup"/>   
+    <project href="https://raw.githubusercontent.com/dhelmke/NewAsciidocFiles/master/setups/GitHubCloneMavenImport.setup#/"/>
+    <project href="https://raw.githubusercontent.com/dhelmke/NewAsciidocFiles/master/setups/MavenImport.setup#/"/>   
     <project href="setups/xtextTools.setup#/"/>
   </project>
   <description>Alle Projekte, die bei einer Umleitung auf Alex-Projekte angezeigt werden sollen</description>

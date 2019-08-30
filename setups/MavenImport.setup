@@ -5,36 +5,10 @@
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:git="http://www.eclipse.org/oomph/setup/git/1.0"
     xmlns:maven="http://www.eclipse.org/oomph/setup/maven/1.0"
-    <xmlns:setup="http://www.eclipse.org/oomph/setup/1.0">
-    <xsi:schemaLocation="http://www.eclipse.org/oomph/setup/git/1.0 http://git.eclipse.org/c/oomph/org.eclipse.oomph.git/plain/setups/models/Git.ecore http://www.eclipse.org/oomph/setup/maven/1.0 http://git.eclipse.org/c/oomph/org.eclipse.oomph.git/plain/setups/models/Maven.ecore"
-    name="mavenimport"
-    label="MavenImport">
-	<installation
-      name="epp.package.standard.installation"
-      label="Java Standart Installation">
-    <productVersion
-        href="index:/org.eclipse.setup#//@productCatalogs[name='org.eclipse.products']/@products[name='epp.package.standard']/@versions[name='latest']"/>
-    <description>Eclipse Standart/SDK</description>
-  </installation>
-  <workspace
-      name="epp.development.environment.workspace"
-      label="EMF Development Environment Workspace">
-    <setupTask
-        xsi:type="setup:VariableTask"
-        name="eclipse.target.platform"
-        value="2019-09"/>
-    <stream
-        href="index:/org.eclipse.setup#//@projectCatalogs[name='org.eclipse']/@projects[name='epp']/@projects[name='core']/@streams[name='master']"/>
-    <stream
-        href="index:/org.eclipse.setup#//@projectCatalogs[name='org.eclipse']/@projects[name='epp']/@projects[name='gwt']/@streams[name='master']"/>
-    <stream
-        href="index:/org.eclipse.setup#//@projectCatalogs[name='org.eclipse']/@projects[name='emf']/@projects[name='rap']/@streams[name='master']"/>
-    <stream
-        href="index:/org.eclipse.setup#//@projectCatalogs[name='org.eclipse']/@projects[name='emf']/@projects[name='xcore']/@streams[name='master']"/>
-    <stream
-        href="index:/org.eclipse.setup#//@projectCatalogs[name='org.eclipse']/@projects[name='xsd']/@streams[name='master']"/>
-    <description>The EMF/XSD development environment workspace includes the Core, RAP, GWT, Xcore, ODA, Releng, and XSD.</description>
-  </workspace>
+    xmlns:setup="http://www.eclipse.org/oomph/setup/1.0"
+    xsi:schemaLocation="http://www.eclipse.org/oomph/setup/git/1.0 http://git.eclipse.org/c/oomph/org.eclipse.oomph.git/plain/setups/models/Git.ecore http://www.eclipse.org/oomph/setup/maven/1.0 http://git.eclipse.org/c/oomph/org.eclipse.oomph.git/plain/setups/models/Maven.ecore"
+    name="githubclonemavenimport"
+    label="GitHubCloneMavenImport">
   <setupTask
       xsi:type="setup:VariableTask"
       name="github.fork.name"
@@ -59,13 +33,12 @@
         value="ssh://github.com/${github.fork.name}/${github.repo.name}.git"
         label="SSH"/>
   </setupTask>
- 
   <setupTask
       xsi:type="maven:MavenImportTask">
     <sourceLocator
         rootFolder="${git.clone.location}/java/"
         locateNestedProjects="true"/>
-    <description>Imports Maven projects contained in the rootFolder</description>
+    <description>Imports Maven projects contained in the cloned Repo.</description>
   </setupTask>
   <stream name="master"
       label="Master">

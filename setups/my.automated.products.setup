@@ -11,7 +11,7 @@
     <productVersion
         href="index:/org.eclipse.setup#//@productCatalogs[name='org.eclipse.products']/@products[name='epp.package.java']/@versions[name='latest']"/>
     <description>The Java (Mars) development environment installation provides the full development environment for working Java.</description>
-  </installation-->
+  </installation>
   <workspace
       name="epp.development.environment.workspace"
       label="Mars Development Environment Workspace">
@@ -36,6 +36,6 @@
     <project href="setups/xtextTools.setup#/"/>
   </project>
 	<description>The EMF/XSD development environment workspace includes the Core, RAP, GWT, Xcore, ODA, Releng, and XSD.</description>
-  </workspace>
+  </workspace-->
   <description>THe EMF Development Environment configuration provides the full development environment for working on EMF.</description>
 </setup:Configuration>

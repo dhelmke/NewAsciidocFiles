@@ -334,6 +334,31 @@
       </repositoryList>
     </targlet>
   </setupTask>
+  <workspace
+      name="epp.development.environment.workspace"
+      label="Mars Development Environment Workspace">
+    <setupTask
+        xsi:type="setup:VariableTask"
+        name="eclipse.target.platform"
+        value="Mars"/>
+    <stream
+        href="index:/org.eclipse.setup#//@projectCatalogs[name='org.eclipse']/@projects[name='epp']/@projects[name='core']/@streams[name='master']"/>
+    <stream
+        href="index:/org.eclipse.setup#//@projectCatalogs[name='org.eclipse']/@projects[name='epp']/@projects[name='gwt']/@streams[name='master']"/>
+    <stream
+        href="index:/org.eclipse.setup#//@projectCatalogs[name='org.eclipse']/@projects[name='epp']/@projects[name='rap']/@streams[name='master']"/>
+    <stream
+        href="index:/org.eclipse.setup#//@projectCatalogs[name='org.eclipse']/@projects[name='emf']/@projects[name='xcore']/@streams[name='master']"/>
+    <stream
+        href="index:/org.eclipse.setup#//@projectCatalogs[name='org.eclipse']/@projects[name='xsd']/@streams[name='master']"/>
+    <project name="Container2"
+      label="My Projects">
+    <project href="https://raw.githubusercontent.com/dhelmke/NewAsciidocFiles/master/setups/GitHubCloneMavenImport.setup#/"/>
+    <project href="https://raw.githubusercontent.com/dhelmke/NewAsciidocFiles/master/setups/MavenImport.setup#/"/>   
+    <project href="setups/xtextTools.setup#/"/>
+  </project>
+	<description>The EMF/XSD development environment workspace includes the Core, RAP, GWT, Xcore, ODA, Releng, and XSD.</description>
+  </workspace>
   <project name="Container1" label="Alex' Github Projects">
     <project href="https://raw.githubusercontent.com/AKSW/Xturtle/develop/xturtleDev.setup#/"/>
     <project href="https://raw.githubusercontent.com/nittka/terminology/master/terminologyDev.setup#/"/>

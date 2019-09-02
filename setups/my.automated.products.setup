@@ -12,6 +12,15 @@
         href="index:/org.eclipse.setup#//@productCatalogs[name='org.eclipse.products']/@products[name='epp.package.java']/@versions[name='latest.released']"/>
     <description>The Java (2019-06) development environment installation provides the full development environment for working Java.</description>
   </installation>
+  <setup.p2:P2Task
+     xmi:version="2.0"
+     xmlns:xmi="http://www.omg.org/XMI"
+     xmlns:setup.p2="http://www.eclipse.org/oomph/setup/p2/1.0">
+   <requirement
+       name="org.eclipse.oomph.setup.feature.group"/>
+   <repository
+       url="${oomph.update.url}"/>
+ </setup.p2:P2Task>
   <workspace
 	  name="emf.development.environment.workspace"
       label="EMF Development Environment Workspace">

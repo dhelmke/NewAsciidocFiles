@@ -22,9 +22,6 @@
 		
 	<setupTask/>
 	<setup:WorkspaceTask
-	xmi:version="2.0"
-	xmlns:xmi="http://www.omg.org/XMI"
-	xmlns:setup="http://www.eclipse.org/oomph/setup/1.0"
 	id="workspace"/>
 	<setupTask
       xsi:type="setup:ResourceCreationTask"

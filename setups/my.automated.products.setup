@@ -9,7 +9,7 @@
       name="eclipse.target.platform.latest.released.installation"
       label="Latest Release (2019-06) Installation">
     <productVersion
-        href="index:/org.eclipse.setup#//@productCatalogs[name='org.eclipse.products']/@products[name='epp.package.java']/@versions[name='2019-06']"/>
+        href="index:/org.eclipse.setup#//@productCatalogs[name='org.eclipse.products']/@products[name='epp.package.java']/@versions[name='(2019-06)']"/>
     <description>The Java (Mars) development environment installation provides the full development environment for working Java.</description>
   </installation>
   <workspace
@@ -18,7 +18,7 @@
     <setupTask
         xsi:type="setup:VariableTask"
         name="eclipse.target.platform"
-        value="2019-06"/>
+        value="(2019-06)"/>
     <stream
         href="index:/org.eclipse.setup#//@projectCatalogs[name='org.eclipse']/@projects[name='epp']/@projects[name='MavenImport']/@streams[name='master']"/>
     <stream

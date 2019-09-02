@@ -6,8 +6,8 @@
     xmlns:setup="http://www.eclipse.org/oomph/setup/1.0"
     label="Target Platform Latest Released">
   <installation
-      name="epp.package.java"
-      label="Eclipse IDE for Java Developers">
+      name="eclipse.target.platform.latest"
+      label="Latest (2019-09)">
     <productVersion
         href="index:/org.eclipse.setup#//@productCatalogs[name='org.eclipse.products']/@products[name='epp.package.java']/@versions[name='2019-06']"/>
     <description>The Java (Mars) development environment installation provides the full development environment for working Java.</description>

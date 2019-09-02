@@ -43,10 +43,21 @@
         activeRepositoryList="${eclipse.target.platform}">
       <repositoryList
           name="(2019-06)"/>
+	<project name="Container2"
+      label="My Projects">
+    <project href="https://raw.githubusercontent.com/dhelmke/NewAsciidocFiles/master/setups/GitHubCloneMavenImport.setup#/"/>
+    <project href="https://raw.githubusercontent.com/dhelmke/NewAsciidocFiles/master/setups/MavenImport.setup#/"/>   
+    <project href="setups/xtextTools.setup#/"/>
+  </project>
     </targlet>
+	<project name="Container2"
+      label="My Projects">
+    <project href="https://raw.githubusercontent.com/dhelmke/NewAsciidocFiles/master/setups/GitHubCloneMavenImport.setup#/"/>
+    <project href="https://raw.githubusercontent.com/dhelmke/NewAsciidocFiles/master/setups/MavenImport.setup#/"/>   
+    <project href="setups/xtextTools.setup#/"/>
+  </project>
   </setupTask>
-   
-    <description>My project</description>
+   <description>My project</description>
   </workspace>
    <description>THe Java Development Environment configuration provides the full development environment for working on Maven project.</description>
     <project name="Container2"

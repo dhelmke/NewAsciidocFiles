@@ -24,10 +24,6 @@
   <setupTask
       xsi:type="setup:TextModifyTask"
       url="configuration:/config.ini">
-    <modification
-        pattern="osgi\.instance\.area\.default=(@user\.home/workspace)">
-      <substitution>${workspace.location|path}</substitution>
-    </modification>
   </setupTask>
   <setupTask
       xsi:type="setup:CompoundTask"

@@ -45,10 +45,15 @@
           name="(2019-06)"/>
     </targlet>
   </setupTask>
-    <stream
+    <!--stream
         href="index:/org.eclipse.setup#//@projectCatalogs[name='org.eclipse']/@projects[name='epp']/@projects[name='MavenImport']/@streams[name='master']"/>
-    <description>My project</description>
+    <description>My project</description-->
   </workspace>
-  
-  <description>THe Java Development Environment configuration provides the full development environment for working on Maven project.</description>
+   <description>THe Java Development Environment configuration provides the full development environment for working on Maven project.</description>
+    <project name="Container2"
+      label="My Projects">
+    <project href="https://raw.githubusercontent.com/dhelmke/NewAsciidocFiles/master/setups/GitHubCloneMavenImport.setup#/"/>
+    <project href="https://raw.githubusercontent.com/dhelmke/NewAsciidocFiles/master/setups/MavenImport.setup#/"/>   
+    <project href="setups/xtextTools.setup#/"/>
+  </project>
 </setup:Configuration>

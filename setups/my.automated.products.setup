@@ -30,24 +30,8 @@
       <substitution>${workspace.location|path}</substitution>
     </modification>
   </setupTask>
-  <setupTask
-      xsi:type="setup.targlets:TargletTask">
-    <targlet
-        name="Eclipse Platform"
-        activeRepositoryList="${eclipse.target.platform}">
-      <repositoryList
-          name="(2019-06)"
-		  <project name="Container2"
-			label="My Projects">
-			<project href="https://raw.githubusercontent.com/dhelmke/NewAsciidocFiles/master/setups/GitHubCloneMavenImport.setup#/"/>
-			<project href="https://raw.githubusercontent.com/dhelmke/NewAsciidocFiles/master/setups/MavenImport.setup#/"/> 
-			</project>
-		</repositoryList>
-    </targlet>
-	
-  </project>
-  </setupTask>
-   <description>My project</description>
+ 
+  
   <workspace
       name="eclipse.target.platform.latest.released.workspace"
       label="Latest Release (2019-06) Workspace">

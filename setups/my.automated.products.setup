@@ -12,6 +12,19 @@
         href="index:/org.eclipse.setup#//@productCatalogs[name='org.eclipse.products']/@products[name='epp.package.java']/@versions[name='latest.released']"/>
     <description>The Java (2019-06) development environment installation provides the full development environment for working Java.</description>
   </installation>
+  <workspace
+      name="emf.development.environment.workspace"
+      label="EMF Development Environment Workspace">
+    <setupTask
+        xsi:type="setup:VariableTask"
+        name="eclipse.target.platform"
+        value="2019-06"
+		<project href="https://raw.githubusercontent.com/AKSW/Xturtle/develop/xturtleDev.setup#/"/>
+	<setupTask/>
+    <stream
+        href="index:/org.eclipse.setup#//@projectCatalogs[name='org.eclipse']/@projects[name='emf']/@projects[name='MavenImport']/@streams[name='master']"/>
+    <description>The EMF/XSD development environment workspace includes the Core, RAP, GWT, Xcore, ODA, Releng, and XSD.</description>
+  </workspace>
     
   
   <description>THe Java Development Environment configuration provides the full development environment for working on Maven project.</description>

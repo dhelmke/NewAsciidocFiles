@@ -28,13 +28,13 @@
       targetURL="configuration:/.settings/org.eclipse.ui.ide.prefs"/>
 	  
 	 
-    <stream
-       href="index:/org.eclipse.setup#//@projectCatalogs[name='org.eclipse']/@projects[name='epp']/@projects[name='MacenImport']/@streams[name='master']"/>
+    
 		
     <description>Thise better works.</description>
   </workspace>
     
-  
+  <stream
+       href="index:/org.eclipse.setup#//@projectCatalogs[name='org.eclipse']/@projects[name='epp']/@projects[name='MacenImport']/@streams[name='master']"/>
   <description>This Java Development Environment configuration provides the full development environment for working on Maven project.</description>
    <project
       href="MavenImport.setup#/"/>

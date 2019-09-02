@@ -80,14 +80,6 @@
   <project href="https://raw.githubusercontent.com/dhelmke/NewAsciidocFiles/master/setups/MavenImport.setup"/>
  
   
-  <workspace
-      name="eclipse.target.platform.latest.released.workspace"
-      label="Latest Release (2019-06) Workspace">
-    <setupTask
-        xsi:type="setup:VariableTask"
-        name="eclipse.target.platform"
-        value="(2019-06)"/>
-	 
-  </workspace>
+  
    <description>THe Java Development Environment configuration provides the full development environment for working on Maven project.</description>
 </setup:Configuration>

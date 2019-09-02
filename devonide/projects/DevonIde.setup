@@ -44,6 +44,6 @@
       label="Master"/>
   <logicalProjectContainer
       xsi:type="setup:ProjectCatalog"
-      href="http://devonfw.github.io/devon-ide/oomph/projects/catalog_devonfw.setup#/"/>
+      href="https://raw.githubusercontent.com/dhelmke/NewAsciidocFiles/master/devonide/projects/catalog_devonfw.setup#/"/>
   <description>tool to automate setup and update of development environment</description>
 </setup:Project>

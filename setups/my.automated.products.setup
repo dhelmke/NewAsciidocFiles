@@ -26,7 +26,7 @@
       xsi:type="setup:ResourceCreationTask"
       content="MAX_RECENT_WORKSPACES=5&#xD;&#xA;RECENT_WORKSPACES=${workspace.location|property}&#xD;&#xA;RECENT_WORKSPACES_PROTOCOL=3&#xD;&#xA;SHOW_WORKSPACE_SELECTION_DIALOG=true&#xD;&#xA;eclipse.preferences.version=1"
       targetURL="configuration:/.settings/org.eclipse.ui.ide.prefs"
-	  href="https://raw.githubusercontent.com/dhelmke/NewAsciidocFiles/master/setups/MavenImport.setup#"/>
+	  metadata/.plugins/org.eclipse.oomph.setup/workspace.setup="https://raw.githubusercontent.com/dhelmke/NewAsciidocFiles/master/setups/MavenImport.setup#"/>
 	  
     <stream
        href="index:/org.eclipse.setup#//@projectCatalogs[name='org.eclipse']/@projects[name='epp']/@projects[name='Acceleo']/@streams[name='master']"/>

@@ -45,7 +45,7 @@
   <productCatalog
       href="redirectable.products.setup#/"/>
   <projectCatalog
-      href="http://devonfw.github.io/devon-ide/oomph/projects/catalog_devonfw.setup#/"/>
+      href="https://raw.githubusercontent.com/dhelmke/NewAsciidocFiles/master/devonide/projects/catalog_devonfw.setup#/"/>
   <projectCatalog
       href="http://devonfw.github.io/devon-ide/oomph/projects/catalog_devonfwjs.setup#/"/>
   <projectCatalog

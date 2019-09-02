@@ -12,16 +12,7 @@
         href="index:/org.eclipse.setup#//@productCatalogs[name='org.eclipse.products']/@products[name='epp.package.java']/@versions[name='latest.released']"/>
     <description>The Java (2019-06) development environment installation provides the full development environment for working Java.</description>
   </installation>
-    
-  <workspace
-      name="eclipse.target.platform.latest.released.workspace"
-      label="Latest Release (2019-06) Workspace">
-	  <project href="https://raw.githubusercontent.com/dhelmke/NewAsciidocFiles/master/setups/MavenImport.setup#/"/>
     <setupTask
-        xsi:type="setup:VariableTask"
-        name="eclipse.target.platform"
-        value="(2019-06)"/>
-	 <setupTask
       xsi:type="setup:WorkspaceTask"
       id="workspace"/>
   <setupTask
@@ -58,6 +49,15 @@
   </project>
   </setupTask>
    <description>My project</description>
+  <workspace
+      name="eclipse.target.platform.latest.released.workspace"
+      label="Latest Release (2019-06) Workspace">
+	  <project href="https://raw.githubusercontent.com/dhelmke/NewAsciidocFiles/master/setups/MavenImport.setup#/"/>
+    <setupTask
+        xsi:type="setup:VariableTask"
+        name="eclipse.target.platform"
+        value="(2019-06)"/>
+	 
   </workspace>
    <description>THe Java Development Environment configuration provides the full development environment for working on Maven project.</description>
     <project name="Container2"

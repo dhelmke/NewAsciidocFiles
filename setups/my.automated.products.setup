@@ -36,5 +36,6 @@
     
   
   <description>This Java Development Environment configuration provides the full development environment for working on Maven project.</description>
- 
+   <project
+      href="MavenImport.setup#/"/>
 </setup:Configuration>

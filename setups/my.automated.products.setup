@@ -15,11 +15,11 @@
   <setup:WorkspaceTask
 	id="workspace"/>
   <workspace
-      name="clipse.target.platform.latest.released.workspace"
+      name="eclipse.target.platform.latest.released.workspace"
       label="Latest Release (2019-06) Workspace">
     <setupTask
         xsi:type="setup:VariableTask"
-        name="eclipse.target.platform"
+        name="eclipse.target.platform.latest.released"
         value="2019-06"		
 	<setupTask/>
 	<setupTask
@@ -29,7 +29,7 @@
     <stream
        
 		href="https://raw.githubusercontent.com/dhelmke/NewAsciidocFiles/master/setups/MavenImport.setup#/@streams[name='master'"/>
-    <description>These better works.</description>
+    <description>Thise better works.</description>
   </workspace>
     
   

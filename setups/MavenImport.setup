@@ -3,22 +3,21 @@
     xmi:version="2.0"
     xmlns:xmi="http://www.omg.org/XMI"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-    xmlns:git="http://www.eclipse.org/oomph/setup/git/1.0"
     xmlns:maven="http://www.eclipse.org/oomph/setup/maven/1.0"
     xmlns:setup="http://www.eclipse.org/oomph/setup/1.0"
-    xsi:schemaLocation="http://www.eclipse.org/oomph/setup/git/1.0 http://git.eclipse.org/c/oomph/org.eclipse.oomph.git/plain/setups/models/Git.ecore http://www.eclipse.org/oomph/setup/maven/1.0 http://git.eclipse.org/c/oomph/org.eclipse.oomph.git/plain/setups/models/Maven.ecore"
+    xsi:schemaLocation="http://www.eclipse.org/oomph/setup/maven/1.0 http://git.eclipse.org/c/oomph/org.eclipse.oomph.git/plain/setups/models/Maven.ecore"
     name="mavenimport"
     label="MavenImport">
   <setupTask
       xsi:type="setup:VariableTask"
       name="github.fork.name"
-      defaultValue="devonfw-forge"
+      defaultValue=""
       storageURI="scope://Workspace"
       label="Fork Name"/>
   <setupTask
       xsi:type="setup:VariableTask"
       name="github.repo.name"
-      defaultValue="jump-the-queue-v2"
+      defaultValue=""
       storageURI="scope://Workspace"
       label="Repository Name"/>
   <setupTask

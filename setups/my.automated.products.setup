@@ -4,23 +4,23 @@
     xmlns:xmi="http://www.omg.org/XMI"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:setup="http://www.eclipse.org/oomph/setup/1.0"
-    label="Java Mars">
+    label="Java latest">
   <installation
-      name="epp.development.environment.installation"
-      label="Mars Development Environment Installation">
+      name="epp.package.java"
+      label="Eclipse IDE for Java Developers">
     <productVersion
         href="index:/org.eclipse.setup#//@productCatalogs[name='org.eclipse.products']/@products[name='epp.package.java']/@versions[name='latest']"/>
     <description>The Java (Mars) development environment installation provides the full development environment for working Java.</description>
   </installation>
   <workspace
-      name="epp.development.environment.workspace"
-      label="Mars Development Environment Workspace">
+      name=""
+      label="Latest (2019-09)">
     <setupTask
         xsi:type="setup:VariableTask"
         name="eclipse.target.platform"
-        value="Mars"/>
+        value="Latest (2019-09)"/>
     <stream
-        href="index:/org.eclipse.setup#//@projectCatalogs[name='org.eclipse']/@projects[name='epp']/@projects[name='core']/@streams[name='master']"/>
+        href="index:/org.eclipse.setup#//@projectCatalogs[name='org.eclipse']/@projects[name='epp']/@projects[name='MavenImport']/@streams[name='master']"/>
     <stream
         href="index:/org.eclipse.setup#//@projectCatalogs[name='org.eclipse']/@projects[name='epp']/@projects[name='gwt']/@streams[name='master']"/>
     <stream

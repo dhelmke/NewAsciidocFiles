@@ -6,8 +6,8 @@
     xmlns:setup="http://www.eclipse.org/oomph/setup/1.0"
 	xmlns:setup.targlets="http://www.eclipse.org/oomph/setup/targlets/1.0"
     xsi:schemaLocation="http://www.eclipse.org/oomph/setup/targlets/1.0 http://git.eclipse.org/c/oomph/org.eclipse.oomph.git/plain/setups/models/SetupTarglets.ecore"
-    name="org.eclipse"
-    label="Target Platform Latest Released">
+    name="My Projects"
+    label="My Projects">
   <installation
       name="eclipse.target.platform.latest.released.installation"
       label="Latest Release (2019-06) Installation">

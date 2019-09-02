@@ -15,6 +15,22 @@
         href="index:/org.eclipse.setup#//@productCatalogs[name='org.eclipse.products']/@products[name='epp.package.java']/@versions[name='latest.released']"/>
     <description>The Java (2019-06) development environment installation provides the full development environment for working Java.</description>
   </installation>
+   <setupTask
+      xsi:type="setup:WorkspaceTask"
+      id="workspace"/>
+  <setupTask
+      xsi:type="setup:ResourceCreationTask"
+      content="MAX_RECENT_WORKSPACES=5&#xD;&#xA;RECENT_WORKSPACES=${workspace.location|property}&#xD;&#xA;RECENT_WORKSPACES_PROTOCOL=3&#xD;&#xA;SHOW_WORKSPACE_SELECTION_DIALOG=true&#xD;&#xA;eclipse.preferences.version=1"
+      targetURL="configuration:/.settings/org.eclipse.ui.ide.prefs"/>
+  <setupTask
+      xsi:type="setup:TextModifyTask"
+      url="configuration:/config.ini">
+    <modification
+        pattern="osgi\.instance\.area\.default=(@user\.home/workspace)">
+      <substitution>${workspace.location|path}</substitution>
+    </modification>
+  </setupTask>
+  <setupTask
   <setupTask
       xsi:type="setup:CompoundTask"
       name="Global Variables">

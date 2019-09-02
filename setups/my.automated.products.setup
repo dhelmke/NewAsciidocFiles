@@ -36,20 +36,21 @@
         name="Eclipse Platform"
         activeRepositoryList="${eclipse.target.platform}">
       <repositoryList
-          name="(2019-06)"/>
+          name="(2019-06)"
+		  <project name="Container2"
+			label="My Projects">
+			<project href="https://raw.githubusercontent.com/dhelmke/NewAsciidocFiles/master/setups/GitHubCloneMavenImport.setup#/"/>
+			<project href="https://raw.githubusercontent.com/dhelmke/NewAsciidocFiles/master/setups/MavenImport.setup#/"/> 
+			</project>
+		</repositoryList>
     </targlet>
-	<project name="Container2"
-      label="My Projects">
-    <project href="https://raw.githubusercontent.com/dhelmke/NewAsciidocFiles/master/setups/GitHubCloneMavenImport.setup#/"/>
-    <project href="https://raw.githubusercontent.com/dhelmke/NewAsciidocFiles/master/setups/MavenImport.setup#/"/>   
-    <project href="setups/xtextTools.setup#/"/>
+	
   </project>
   </setupTask>
    <description>My project</description>
   <workspace
       name="eclipse.target.platform.latest.released.workspace"
       label="Latest Release (2019-06) Workspace">
-	  <project href="https://raw.githubusercontent.com/dhelmke/NewAsciidocFiles/master/setups/MavenImport.setup#/"/>
     <setupTask
         xsi:type="setup:VariableTask"
         name="eclipse.target.platform"

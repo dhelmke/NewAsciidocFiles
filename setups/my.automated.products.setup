@@ -4,21 +4,21 @@
     xmlns:xmi="http://www.omg.org/XMI"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:setup="http://www.eclipse.org/oomph/setup/1.0"
-    label="Java latest">
+    label="Target Platform Latest Released">
   <installation
       name="epp.package.java"
       label="Eclipse IDE for Java Developers">
     <productVersion
-        href="index:/org.eclipse.setup#//@productCatalogs[name='org.eclipse.products']/@products[name='epp.package.java']/@versions[name='latest']"/>
+        href="index:/org.eclipse.setup#//@productCatalogs[name='org.eclipse.products']/@products[name='epp.package.java']/@versions[name='2019-06']"/>
     <description>The Java (Mars) development environment installation provides the full development environment for working Java.</description>
   </installation>
   <workspace
-      name=""
+      name="eclipse.target.platform.latest"
       label="Latest (2019-09)">
     <setupTask
         xsi:type="setup:VariableTask"
-        name="eclipse.target.platform"
-        value="Latest (2019-09)"/>
+        name="eclipse.target.platform.released"
+        value="2019-06"/>
     <stream
         href="index:/org.eclipse.setup#//@projectCatalogs[name='org.eclipse']/@projects[name='epp']/@projects[name='MavenImport']/@streams[name='master']"/>
     <stream

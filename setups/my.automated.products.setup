@@ -24,7 +24,7 @@
         name="eclipse.target.platform"
         value="(2019-06)"/>
     <stream
-        href="index:/org.eclipse.setup#//@projectCatalogs[name='org.eclipse']/@projects[name='epp']/@projects[name='MavenImport']/@streams[name='master']"/>
+        href="index:/org.eclipse.setup#//@projectCatalogs[name='org.eclipse']/@projects[name='Container2']/@projects[name='MavenImport']/@streams[name='master']"/>
     <description>The EMF/XSD development environment workspace includes the Core, RAP, GWT, Xcore, ODA, Releng, and XSD.</description>
   </workspace>
   <description>THe Java Development Environment configuration provides the full development environment for working on Maven project.</description>

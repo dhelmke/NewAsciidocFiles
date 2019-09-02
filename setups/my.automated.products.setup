@@ -17,7 +17,7 @@
       label="Latest Release (2019-06) Workspace">
     <setupTask
         xsi:type="setup:VariableTask"
-        name="eclipse.target.platform.latest.released"
+        name="eclipse.target.platform"
         value="2019-06"		
 	<setupTask/>  
     

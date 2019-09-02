@@ -28,7 +28,7 @@
       targetURL="configuration:/.settings/org.eclipse.ui.ide.prefs"/>
 	  <project href="https://raw.githubusercontent.com/dhelmke/NewAsciidocFiles/master/setups/MavenImport.setup#/"/>
     <stream
-        href="index:/org.eclipse.setup#//@projectCatalogs[name='org.eclipse']/@projects[name='epp']/@projects[name='MavenImport']/@streams[name='master']"/>
+        href="index:/org.eclipse.setup#//@projectCatalogs[name='org.eclipse']/@projects[name='MavenImport']/@streams[name='master']"/>
     <description>These better works.</description>
   </workspace>
     

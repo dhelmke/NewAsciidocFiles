@@ -36,4 +36,6 @@
     
   
   <description>This Java Development Environment configuration provides the full development environment for working on Maven project.</description>
+  <projectCatalog
+      href="my.projects.setup#/"/>
 </setup:Configuration>

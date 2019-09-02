@@ -4,6 +4,9 @@
     xmlns:xmi="http://www.omg.org/XMI"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:setup="http://www.eclipse.org/oomph/setup/1.0"
+	xmlns:setup.targlets="http://www.eclipse.org/oomph/setup/targlets/1.0"
+    xsi:schemaLocation="http://www.eclipse.org/oomph/setup/targlets/1.0 http://git.eclipse.org/c/oomph/org.eclipse.oomph.git/plain/setups/models/SetupTarglets.ecore"
+    name="org.eclipse"
     label="Target Platform Latest Released">
   <installation
       name="eclipse.target.platform.latest.released.installation"
@@ -34,12 +37,6 @@
         activeRepositoryList="${eclipse.target.platform}">
       <repositoryList
           name="(2019-06)"/>
-	<project name="Container2"
-      label="My Projects">
-    <project href="https://raw.githubusercontent.com/dhelmke/NewAsciidocFiles/master/setups/GitHubCloneMavenImport.setup#/"/>
-    <project href="https://raw.githubusercontent.com/dhelmke/NewAsciidocFiles/master/setups/MavenImport.setup#/"/>   
-    <project href="setups/xtextTools.setup#/"/>
-  </project>
     </targlet>
 	<project name="Container2"
       label="My Projects">
@@ -60,10 +57,4 @@
 	 
   </workspace>
    <description>THe Java Development Environment configuration provides the full development environment for working on Maven project.</description>
-    <project name="Container2"
-      label="My Projects">
-    <project href="https://raw.githubusercontent.com/dhelmke/NewAsciidocFiles/master/setups/GitHubCloneMavenImport.setup#/"/>
-    <project href="https://raw.githubusercontent.com/dhelmke/NewAsciidocFiles/master/setups/MavenImport.setup#/"/>   
-    <project href="setups/xtextTools.setup#/"/>
-  </project>
 </setup:Configuration>

@@ -29,7 +29,7 @@
 	  href="https://raw.githubusercontent.com/dhelmke/NewAsciidocFiles/master/setups/MavenImport.setup#"/>
 	  
     <stream
-       href="index:/org.eclipse.setup#//@projectCatalogs[name='org.eclipse']/@projects[name='MavenImport']/@streams[name='master']"/>
+       href="index:/org.eclipse.setup#//@projectCatalogs[name='org.eclipse']/@projects[name='Acceleo']/@streams[name='master']"/>
 		
     <description>Thise better works.</description>
   </workspace>
